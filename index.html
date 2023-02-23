@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Game</title>
+  <link rel="stylesheet" type="text/css" href="./static/style.css">
+   <script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+  <div class="wrap">
+    <div class="entering">
+      
+    <div class="bold">
+      <h1>Welcome to Cards Game &#33;</h1>
+    </div>
+    <div class="medium">
+      <h2>Enter your name as Player</h2>
+      <form>
+        <input type="text" name="naam" placeholder="Enter Name">
+        <input id="join" type="submit" value="Join">
+      </form>
+    </div>
+    </div>
+  </div>
+  <div class="wrap2 gayab">
+    <div class="player-section">
+      <div class="center"><p>Players Name</p></div>
+      <div class="line"></div>
+<!--       <div class="name">player1</div>
+      <div class="line"></div>
+      <div class="name">player1</div>
+      <div class="line"></div>
+      <div class="name">player1</div>
+      <div class="line"></div>
+      <div class="name">player1</div> -->
+<!--       <div class="line"></div> -->
+    </div>
+    <div class="game-section">
+      <div class="g1">
+      <p>Start the Game</p>
+      <p class="gayab">your cards shown below</p>
+      </div>
+      <div class="g2">
+        <div class="hidden "><button id='st'>Start</button></div>
+        <div class="g2 gayab">
+<!--         <div class="card-box effect" id="moon"><div class="inside" >Moon</div></div>
+        <div class="card-box effect" id="star"><div class="inside">Star</div></div>
+        <div class="card-box effect" id="galaxy"><div class="inside">Galaxy</div></div>
+        <div class="card-box effect" id="dream"><div class="inside">Dream</div></div>
+        <div class="card-box effect" id="moon"><div class="inside">Moon</div></div> -->
+          </div>
+      </div>
+      <div class="g3">
+<!--         <button>Pass the card</button> -->
+             <button  class="gayab" id="start">score Four</button>
+        <p></p>
+      </div>
+    </div>
+    <div class="card-section">
+       <div class="center"><p>cards Name</p></div>
+      <div class="line red"></div>
+      <div class="name">moon</div>
+      <div class="line red"></div>
+      <div class="name">star</div>
+      <div class="line red"></div>
+      <div class="name">dream</div>
+      <div class="line red"></div>
+      <div class="name">galaxy</div>
+      <div class="line red"></div>
+    </div>
+  </div>
+  <div class=" wrap wrap3 gayab">
+    <div class="entering">
+      <div class="result">
+        <h1>Result</h1>
+        <div class="line"></div>
+<!--         <p class="name">player 1</p>
+        <div class="line"></div>
+        <p  class="name">player 2</p>
+        <div class="line"></div>
+        <p class="name"> player 3</p>
+        <div class="line"></div>
+        <p  class="name">player 4</p>
+        <div class="line"></div> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="./static/script.js"></script>
+</body>
+</html>
